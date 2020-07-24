@@ -1,0 +1,17 @@
+.item-list-row{
+    font-size: 12px;
+    width: 100%;
+    min-height: 24px;
+}
+
+.item-list-has-content{
+    border-bottom: 1px solid #A5A5A5;
+    min-height: 36px;
+}
+
+.item-list-empty-message{
+    color: darkgray;
+    border-bottom: 1px solid darkgray;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}

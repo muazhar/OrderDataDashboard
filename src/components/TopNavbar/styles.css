@@ -1,0 +1,7 @@
+#username-dropdown{
+    color: var(--main-text);
+}
+
+#top-navbar{
+    border-bottom: 2px solid var(--main-text);
+}

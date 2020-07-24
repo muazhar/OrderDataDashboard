@@ -1,0 +1,33 @@
+.order-date-container{
+    display: grid;
+    grid-template-columns: 0.8fr 2.2fr;
+}
+
+.order-date-container > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Reorder the datapickers as a column when the container sizes down */
+@media(max-width: 991px){
+    .order-date-container{
+        grid-template-columns: 1fr 2fr;
+    }
+    .order-date-container > div{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width: 767px){
+    .order-date-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .order-date-container > label, .order-date-container > div, .order-date-container > div > div{
+        width: 100%;
+    }
+}

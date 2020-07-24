@@ -1,0 +1,12 @@
+.page-link{
+    color: var(--primary-dark);
+}
+
+.page-link:hover{
+    color: var(--quarternary);
+}
+
+.page-item.active .page-link{
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}

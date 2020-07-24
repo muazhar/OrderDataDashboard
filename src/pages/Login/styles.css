@@ -1,0 +1,53 @@
+.login-panel{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-panel form{
+    background-color: var(--background-intense);
+    border-radius: 12px;
+    box-shadow: 0px 0px 7px 3px rgba(187,187,187,0.7);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Change the box's shape when the screen is small */
+@media(max-width: 576px){
+    .login-panel, .login-panel > div{
+        padding: 0px;
+        height: 100%;
+    }
+
+    .login-panel form{
+        border-radius: 0px;
+        height: 100%;
+    }
+}
+
+.login-panel form h2{
+    text-align: center;
+    color: var(--terciary);
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.login-panel form button{
+    border: 0px;
+    background-color: var(--primary);
+    font-weight: bold;
+    color: var(--primary-contrast);
+}
+
+.login-panel form button:hover{
+    background-color: var(--primary-dark);
+}
+
+.login-panel form button:disabled{
+    opacity: 0.5;
+    box-shadow: 0px 0px 0px 0px #000;
+}
