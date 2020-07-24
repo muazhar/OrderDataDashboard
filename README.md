@@ -1,4 +1,4 @@
-# Setor da Embalagem
+# Dashboard
 
 Este é o cliente da aplicação de controle de um Dashboard. O objetivo da aplicação é acessar a base de dados, mostrando os dados dos pedidos.
 
